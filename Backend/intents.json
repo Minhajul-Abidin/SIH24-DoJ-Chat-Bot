@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "tag": "hello",
+      "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+      "responses": [
+        "Hello! I'm here to provide information about law and justice. How can I assist you today?",
+        "Hi there! I'm here to help you with any questions about law and justice. How can I help you?",
+        "Hey! I'm here to offer information about law and justice. What can I do for you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you later", "Take care"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Bye! Take care!",
+        "See you later!"
+      ]
+    }
+  ]
+}
